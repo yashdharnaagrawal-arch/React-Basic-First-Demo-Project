@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import FeaturedBooks from "./components/FeaturedBooks";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <FeaturedBooks />
+      <Footer />
     </>
   )
 }
