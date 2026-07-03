@@ -1,0 +1,41 @@
+.books{
+
+    padding:60px;
+
+    text-align:center;
+
+}
+
+.cards{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    margin-top:40px;
+
+}
+
+.card{
+
+    width:250px;
+
+    background:white;
+
+    border-radius:8px;
+
+    box-shadow:0 0 10px lightgray;
+
+    padding:30px;
+
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+    transition:.3s;
+
+}
